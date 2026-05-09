@@ -22,7 +22,7 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     filter: 'blur(0px)',
-    transition: { duration: 0.9, ease: [0.76, 0, 0.24, 1] },
+    transition: { duration: 0.9, ease: "easeInOut" },
   },
 };
 
@@ -178,7 +178,7 @@ const Hero = () => {
         >
           {/* Badge */}
           <motion.div
-            variants={itemVariants}
+            variants={containerVariants}
             className="inline-flex items-center gap-2.5 mb-7 px-4 py-2 rounded-full glass border border-white/[0.07]"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -189,7 +189,7 @@ const Hero = () => {
 
           {/* Headline */}
           <motion.h1
-            variants={itemVariants}
+            variants={containerVariants}
             className="text-[clamp(3rem,9vw,6.5rem)] font-black leading-[0.88] tracking-[-0.04em] mb-7"
           >
             <span className="block text-white">Crafting</span>
@@ -209,7 +209,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <motion.p
-            variants={itemVariants}
+            variants={containerVariants}
             className="text-base lg:text-lg text-white/45 max-w-[520px] mb-10 leading-relaxed"
           >
             I design and build immersive web experiences that merge{' '}
@@ -219,7 +219,7 @@ const Hero = () => {
           </motion.p>
 
           {/* CTA buttons */}
-          <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
+          <motion.div variants={containerVariants} className="flex flex-wrap gap-4">
             <motion.button
               whileHover={{ scale: 1.04, y: -2 }}
               whileTap={{ scale: 0.96 }}
@@ -258,7 +258,7 @@ const Hero = () => {
 
           {/* Stats */}
           <motion.div
-            variants={itemVariants}
+            variants={containerVariants}
             className="flex gap-8 mt-10 pt-8 border-t border-white/[0.06]"
           >
             {[

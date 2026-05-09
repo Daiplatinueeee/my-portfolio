@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { motion, useScroll, useTransform, useInView } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { projects, categories, type Project } from '../data/projects';
 
 /* ─── Tilt Card ─── */
@@ -205,8 +205,6 @@ const Projects = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const [activeCategory, setActiveCategory] = useState('All');
-
-  const isInView = useInView(sectionRef, { once: true, margin: '-150px' });
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
