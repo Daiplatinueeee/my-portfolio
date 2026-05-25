@@ -14,18 +14,17 @@ const traits = [
 ];
 
 const stats = [
-  { label: 'Projects', value: '15+', color: '#6366f1', icon: '◈' },
-  { label: 'Years Exp', value: '5+', color: '#8b5cf6', icon: '◉' },
-  { label: 'Technologies', value: '20+', color: '#ec4899', icon: '◎' },
+  { label: 'Projects', value: '20+', color: '#6366f1', icon: '◈' },
+  { label: 'Years Exp', value: '4+', color: '#8b5cf6', icon: '◉' },
+  { label: 'Technologies', value: '24+', color: '#ec4899', icon: '◎' },
 ];
 
 const bioLines = [
-  "I'm a Full Stack Developer & Creative Technologist",
-  'who bridges the gap between design and engineering.',
-  'I craft immersive digital experiences that are fast,',
-  'accessible, and obsessively well-made.',
+  "I'm a Full-Stack Developer passionate about",
+  'building scalable, high-performance web and software applications alongside innovative AI solutions.',
+  'I create immersive digital experiences that are fast,',
+  'accessible, and impactful, actively pursuing a Software Engineer role.',
 ];
-
 /* ─── About section ─── */
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -300,7 +299,7 @@ const About = () => {
                 transition={{ duration: 1.0, ease: [0.76, 0, 0.24, 1] }}
                 className="text-[clamp(2.6rem,6vw,4.8rem)] font-black leading-[0.88] tracking-[-0.04em]"
               >
-                <span className="block text-white">Crafting</span>
+                <span className="block text-white">Code</span>
                 <span
                   className="block"
                   style={{
@@ -310,9 +309,9 @@ const About = () => {
                     backgroundClip: 'text',
                   }}
                 >
-                  Digital
+                  Meets
                 </span>
-                <span className="block text-white">Experiences</span>
+                <span className="block text-white">Creativity</span>
               </motion.h2>
             </div>
 

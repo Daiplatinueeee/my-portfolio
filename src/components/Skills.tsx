@@ -232,7 +232,7 @@ const Skills = () => {
             {/* Stat cards */}
             {[
               {
-                value: '3+',
+                value: '4+',
                 label: 'Years of Experience',
                 icon: '◈',
                 color: '#6366f1',

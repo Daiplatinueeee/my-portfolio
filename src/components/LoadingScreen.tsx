@@ -114,11 +114,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
                     letter === ' ' ? 'w-3' : ''
                   }`}
                   style={{
-                    background:
-                      'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    backgroundClip: 'text',
+                    color: 'white',
                   }}
                 >
                   {letter}

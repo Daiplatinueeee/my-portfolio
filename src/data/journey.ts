@@ -45,17 +45,6 @@ export const journeyEntries: JourneyEntry[] = [
   },
   {
     id: 4,
-    year: '2023',
-    title: 'Junior Developer',
-    company: 'Digital Agency',
-    type: 'work',
-    description:
-      "Graduated and landed my first full-time role. Delivered 8+ client projects end-to-end, optimized web performance by 40%, and mentored two junior interns through the ropes.",
-    tags: ['Next.js', 'PostgreSQL', 'Docker', 'Client Work'],
-    accent: '#f97316',
-  },
-  {
-    id: 5,
     year: '2024',
     title: 'Freelance & Open Source',
     company: 'Independent',
@@ -66,7 +55,7 @@ export const journeyEntries: JourneyEntry[] = [
     accent: '#14b8a6',
   },
   {
-    id: 6,
+    id: 5,
     year: '2025',
     title: 'Available for Opportunities',
     company: 'Open to Work',
