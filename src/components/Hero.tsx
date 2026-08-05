@@ -150,7 +150,7 @@ const Hero = () => {
         >
           <div className="text-xs font-mono text-violet-400">
             {'<'}<span className="text-pink-400">Experience</span>{' years='}
-            <span className="text-green-400">"4 academic years"</span>{' />'}
+            <span className="text-green-400">"4+ years"</span>{' />'}
           </div>
         </motion.div>
 
